@@ -1,0 +1,16 @@
+{
+  "name": "@red-cup-engineering/dated-state-writing-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Writes and reads dated state records at <root>/<YYYY>/<MM>/<DD>/<YYYY-MM-DD>-<service>-<type>.<extension>, keyed by a caller-supplied recordedAt timestamp instead of a content hash. Use when a service needs to publish or retrieve one of its own dated snapshots under the house data/state date-tree.",
+  "exports": "./src/dated-state-writing.mjs",
+  "scripts": {
+    "check": "node --check src/dated-state-writing.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
