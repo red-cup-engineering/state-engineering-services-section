@@ -1,6 +1,11 @@
 {
   "name": "@red-cup-engineering/state-services-section",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-file-engineering-services-section.git",
+    "directory": "services/state-services-section"
+  },
   "private": true,
   "type": "module",
   "description": "Holds the services for dated state records. Use when writing or reading the data/state date-tree that services publish their snapshots into."
