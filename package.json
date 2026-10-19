@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-file-engineering-services-section.git",
-    "directory": "services/state-services-section"
+    "url": "git+https://github.com/red-cup-engineering/state-services-section.git"
   },
   "private": true,
   "type": "module",
