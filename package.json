@@ -1,9 +1,9 @@
 {
-  "name": "@red-cup-engineering/state-services-section",
+  "name": "@red-cup-engineering/state-engineering-services-section",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/state-services-section.git"
+    "url": "git+https://github.com/red-cup-engineering/state-engineering-services-section.git"
   },
   "private": true,
   "type": "module",
