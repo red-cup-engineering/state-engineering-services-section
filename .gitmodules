@@ -1,0 +1,3 @@
+[submodule "services/dated-state-writing-service"]
+	path = services/dated-state-writing-service
+	url = https://github.com/red-cup-engineering/dated-state-writing-service.git
